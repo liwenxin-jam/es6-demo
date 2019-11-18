@@ -1,0 +1,8 @@
+{
+  // @babel/core升级后，相关的包都是 @babel/ 为前缀
+  "presets": ["@babel/preset-env"],
+  // 转编译装饰器
+  "plugins": [["@babel/plugin-proposal-decorators", { "legacy": true }]],
+  // 内联源代码映射，方便调试
+  "sourceMaps": "inline"
+}

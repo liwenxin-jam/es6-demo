@@ -1,0 +1,20 @@
+{
+  "name": "babelify_example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browserify": "browserify src/index.js --transform babelify --outfile dist/bundle.js --debug"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/plugin-proposal-decorators": "^7.7.0",
+    "@babel/preset-env": "^7.7.1",
+    "babel-loader": "^8.0.6",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.0"
+  }
+}
